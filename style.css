@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&family=AR+One+Sans&family=Archivo+Black&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(circle, rgba(136,255,248,1) 0%, rgba(144,186,236,1) 100%);
+}
+
+.head{
+    width: 100%;
+    margin-top: 30px;
+    padding: 0px 10%;
+    color: black;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    width: 100%;
+    margin-top: 40px;
+    padding: 0px 10%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes{
+    width: 450px;
+    height: 750px;
+    /* background-color: blue; */
+}
+
+.box{
+    width: 450px;
+    height: 250px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+}
+
+.item1{
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    align-self: flex-start;
+    opacity: 35%;
+}
+
+.item2{
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    align-self: flex-end;
+    opacity: 35%;
+}
+
+.item3{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    align-self: flex-start;
+    opacity: 35%;
+}
+
+.item4{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    align-self: flex-end;
+    opacity: 35%;
+}
+
+.item5{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    align-self: flex-start;
+    opacity: 35%;
+}
+
+.item6{
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    align-self: flex-end;
+    opacity: 35%;
+}
+
+.calc{
+    width: 450px;
+    height: 750px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 1px black;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 40%;
+}
+
+.display{
+    width: 450px;
+    height: 265px;
+    border-radius: 20px;
+    border: 0px;
+    /* background-color: red; */
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 80px;
+    color: black;
+    direction: ltr;
+    text-align: right;
+}
+
+.buttons{
+    width: 100%;
+    height: 485px;
+    /* background-color: yellow; */
+    border-radius: 20px;
+}
+
+.row1{
+    width: 100%;
+    height: 20%;
+    /* background-color: green; */
+    border-radius: 20px;
+    display: flex;
+}
+
+.row2{
+    width: 100%;
+    height: 20%;
+    /* background-color: purple; */
+    border-radius: 20px;
+    display: flex;
+}
+
+.row3{
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    border-radius: 20px;
+    display: flex;
+}
+
+.row4{
+    width: 100%;
+    height: 20%;
+    /* background-color: gray; */
+    border-radius: 20px;
+    display: flex;
+}
+
+.row5{
+    width: 100%;
+    height: 20%;
+    /* background-color: hotpink; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+button{
+    width: 25%;
+    height: 100%;
+    color: black;
+    font-weight: 900;
+    border: 0px;
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.ripple{
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.ripple:hover{
+    background-color: lightgray;
+    background-image: radial-gradient(circle, transparent 1.5%, white 1%);
+    background-position: center;
+    background-size: 15000%;
+}
+
+.ripple:active{
+    transition: background 0s;
+    background-color: lightgray;
+    background-size: 100%;
+}
+
+.ripple1{
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.ripple1:hover{
+    background-color: lightgray;
+    background-image: radial-gradient(circle, transparent 1.5%, white 1%);
+    background-position: center;
+    background-size: 15000%;
+}
+
+.ripple1:active{
+    transition: background 0s;
+    background-color: lightgray;
+    background-size: 100%;
+}
